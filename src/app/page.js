@@ -1,9 +1,10 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
+
 import HomeBanner from "./HomeComponents/HomeBanner";
 import AboutSection from "./HomeComponents/AboutSection";
 import { Container } from "@mui/material";
+
+import MenuShowCase from "./HomeComponents/MenuShowCase";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HomeBanner />
       <Container>
         <AboutSection />
+        <MenuShowCase />
       </Container>
     </main>
   );

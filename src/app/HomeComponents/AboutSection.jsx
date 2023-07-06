@@ -30,12 +30,12 @@ const AboutSection = () => {
               {" "}
               10
             </p>
-            <small className="text-xs">Year Experience</small>
+            <small className="text-xs font-semibold">Year Experience</small>
           </div>
         </Paper>
         <div>
           <Image
-            src={"/2col-gallery-01.png"}
+            src={"/2col-gallery-02.png"}
             alt="image"
             height={400}
             width={250}
